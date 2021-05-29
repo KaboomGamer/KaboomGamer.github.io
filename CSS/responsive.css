@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1320px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .web{
+        width: 160%;
+        overflow: hidden;
+    }
+
+/* Navbarp */
+
+    .originalpnav{
+      display: flex;
+    }
+
+    .navbar{
+      flex-direction: column;
+      width: 100%;
+      position: sticky;
+      top: 0;
+      background: #1a1a1d;
+      opacity: 1;
+      height: 65vh;
+      transition: all 0.2s ease-out;
+    }
+
+    .h-nav-resp{
+      height: 15vh;
+    }
+
+    .leftnavlist{
+      flex-direction: column;
+      height: 0;
+      
+    }
+
+    .burger{
+        display: unset;
+        width: 4%;
+        margin-left: 1%;
+        margin-top: 1.5%;
+    }
+    
+    .line{
+        z-index: 1;
+        width: 33px;
+        background: white;
+        height: 5px;
+        margin: 5px 5px;
+        border: 2px solid black;
+    
+    }
+  
+    .text-smallp1{
+      width: 15%;
+      display: flex;
+      color: white;
+      margin-top: 10px; 
+      margin-left: 20.6%;
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+      text-shadow: 0 0 20px black, 0 0 10px #950740;
+      cursor: pointer;
+    }
+  
+    .text-small1{
+      display: none;
+    }
+  
+    .lna{
+      flex-direction: column;
+      text-align: center;
+      margin-right: 31%;
+      padding-top: 5px;
+    }
+    
+    .navlinks{
+      display: unset;
+    }
+
+    .leftnavlist li{
+      text-align: center;
+      margin-right: 44%;
+      padding: 10px;
+  
+    }
+
+    .v-class-resp{
+      display: none;
+    }
+  
+/* About Us */
+    
+    .secondsection{
+        height: 85vh;
+    }
+
+    .text-big2{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+/* Our Services */
+
+    .card{
+        width: 900px;
+        margin-left: 45px;
+        font-size: 20px;
+
+    }
+
+    .card h3{
+        font-size: 45px;
+    }
+
+/* Site Map */
+
+    .fifthsection{
+        height: 40vh;
+    }
+
+    hsm-1{
+        font-size: 30px;
+    }
+
+    .sm-aboutus{
+        margin-left: 90px;
+    }
+
+    .sm-aboutus-p{
+        font-size: 16px;
+    }
+
+    
+  }
+  
+  
