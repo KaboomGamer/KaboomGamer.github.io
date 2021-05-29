@@ -23,7 +23,7 @@
       top: 0;
       background: #1a1a1d;
       opacity: 1;
-      height: 65vh;
+      height: 79vh;
       transition: all 0.2s ease-out;
     }
 
@@ -55,11 +55,10 @@
     }
   
     .text-smallp1{
-      width: 15%;
       display: flex;
       color: white;
       margin-top: 10px; 
-      margin-left: 20.6%;
+      margin-left: 16%;
       font-family: 'Pacifico', cursive;
       font-size: 40px;
       text-shadow: 0 0 20px black, 0 0 10px #950740;
@@ -71,21 +70,27 @@
     }
   
     .lna{
-      flex-direction: column;
-      text-align: center;
-      margin-right: 31%;
-      padding-top: 5px;
+      
+      display: unset;
+      margin-right: 100%;
+      padding-top: 1px;
     }
     
     .navlinks{
       display: unset;
+      margin-right: 11%;
     }
 
     .leftnavlist li{
+      padding: 10px;
       text-align: center;
       margin-right: 44%;
-      padding: 10px;
   
+    }
+
+    .leftnavlist li a{
+      text-align: center;
+
     }
 
     .v-class-resp{
@@ -95,7 +100,7 @@
 /* About Us */
     
     .secondsection{
-        height: 85vh;
+        height: 130vh;
     }
 
     .text-big2{
@@ -109,12 +114,28 @@
         width: 900px;
         margin-left: 45px;
         font-size: 20px;
+        width: 85%;
 
     }
 
     .card h3{
         font-size: 45px;
     }
+/* contact us */
+
+h3{
+  width: 50%;
+  margin-left: 1%;
+}
+
+.bottom-nav{
+  margin: 70px;
+  margin-top: 18px;
+}
+
+.social-panel{
+  height: 25vh;
+}
 
 /* Site Map */
 
@@ -127,13 +148,16 @@
     }
 
     .sm-aboutus{
-        margin-left: 90px;
+        display: none;
     }
 
-    .sm-aboutus-p{
-        font-size: 16px;
+    hsm-3{
+      margin-left: 2%;
     }
 
+    .wrapper{
+      margin-left: -1.9%;
+    }
     
   }
   
